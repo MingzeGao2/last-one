@@ -40,3 +40,4 @@
 )
   
 (autoload 'magit-status "magit" nil t)
+;;see if there is a conflict
