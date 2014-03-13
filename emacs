@@ -31,4 +31,4 @@
 (setq ido-everywhere t)
 (ido-mode 1) 
 
-(global-set-key (kbd "C-d") 'kill-whole-line)
+(global-set-key (kbd "C-+") 'kill-whole-line)
