@@ -32,3 +32,11 @@
 (ido-mode 1) 
 
 (global-set-key (kbd "C-d") 'kill-whole-line)
+
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+)
+  
+(autoload 'magit-status "magit" nil t)  
